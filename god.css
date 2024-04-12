@@ -1,0 +1,43 @@
+* {
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 900;
+  font-variant: small-caps;
+  background-color: black;
+  color: white;
+}
+#paper:hover {
+  transform: rotate(10deg);
+  transition: ease-in-out;
+  transition-duration: 2s;
+  transition-property: all;
+}
+#rock:hover {
+  transform: rotate(10deg);
+  transition: ease-in-out;
+  transition-duration: 2s;
+  transition-property: all;
+}
+#scissor:hover {
+  transform: rotate(10deg);
+  transition: ease-in-out;
+  transition-duration: 2s;
+}
+#r:hover {
+  color: red;
+}
+h1 {
+  color: black;
+  animation-name: color;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes color {
+  from {
+    color: black;
+  }
+  to {
+    color: blue;
+  }
+}
